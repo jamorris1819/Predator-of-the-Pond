@@ -1,0 +1,18 @@
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\obj\x86\Debug\Predator of the Pond.csprojResolveAssemblyReference.cache
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Fonts\MainFont.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Predator of the Pond.exe
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Predator of the Pond.pdb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Screen Management Library.pdb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\obj\x86\Debug\Predator of the Pond.exe
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\obj\x86\Debug\Predator of the Pond.pdb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Screen Management Library.dll
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\bubble.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Backgrounds\ingame.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Backgrounds\menu.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\player.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\fishleft.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\fishright.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\music.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\bubble.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\music.wma

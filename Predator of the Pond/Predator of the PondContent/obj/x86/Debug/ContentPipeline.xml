@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>bubble.png</Source>
+      <Name>bubble</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\bubble.xnb</Output>
+      <Time>2014-10-05T15:56:37.989+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\MainFont.png</Source>
+      <Name>Fonts\MainFont</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Fonts\MainFont.xnb</Output>
+      <Time>2014-10-07T13:34:03.769+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\ingame.png</Source>
+      <Name>Backgrounds\ingame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Backgrounds\ingame.xnb</Output>
+      <Time>2014-10-07T13:48:52.59+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\menu.png</Source>
+      <Name>Backgrounds\menu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Backgrounds\menu.xnb</Output>
+      <Time>2014-10-07T13:48:56.576+01:00</Time>
+    </Item>
+    <Item>
+      <Source>player.png</Source>
+      <Name>player</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\player.xnb</Output>
+      <Time>2014-10-07T13:58:52.148+01:00</Time>
+    </Item>
+    <Item>
+      <Source>fishleft.png</Source>
+      <Name>fishleft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\fishleft.xnb</Output>
+      <Time>2014-10-07T14:12:39.981+01:00</Time>
+    </Item>
+    <Item>
+      <Source>fishright.png</Source>
+      <Name>fishright</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\fishright.xnb</Output>
+      <Time>2014-10-07T14:19:42.435+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\music.mp3</Source>
+      <Name>Audio\music</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\music.xnb</Output>
+      <Extra>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\music.wma</Extra>
+      <Time>2014-10-07T14:24:53.091+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\bubble.wav</Source>
+      <Name>Audio\bubble</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\bubble.xnb</Output>
+      <Time>2014-10-07T14:34:34.854+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the PondContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the PondContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-05-08T20:19:05.506+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
