@@ -18,7 +18,7 @@ namespace Predator_of_the_Pond
 {
     public class Game1 : Microsoft.Xna.Framework.Game
     {
-        GraphicsDeviceManager graphics;
+        public GraphicsDeviceManager graphics;
         public SpriteBatch SpriteBatch;
 
         const int screenWidth = 1280;
@@ -28,6 +28,9 @@ namespace Predator_of_the_Pond
         GameStateManager stateManager;
         public TitleMenuScreen TitleMenuScreen;
         public GameScreen GameScreen;
+        public GameOverScreen GameOverScreen;
+
+        public Song sadMusic;
 
         public Game1()
         {
@@ -46,6 +49,7 @@ namespace Predator_of_the_Pond
 
             TitleMenuScreen = new TitleMenuScreen(this, stateManager);
             GameScreen = new GameScreens.GameScreen(this, stateManager);
+            GameOverScreen = new GameScreens.GameOverScreen(this, stateManager);
 
             stateManager.ChangeState(TitleMenuScreen);
         }
@@ -59,6 +63,7 @@ namespace Predator_of_the_Pond
         {
             SpriteBatch = new SpriteBatch(GraphicsDevice);
             Bubble.Sprite = Content.Load<Texture2D>("bubble");
+            sadMusic = Content.Load<Song>("Audio/sad_violin");
             Song song = Content.Load<Song>("Audio/music");
             MediaPlayer.IsRepeating = true;
             MediaPlayer.Play(song);
@@ -75,8 +80,6 @@ namespace Predator_of_the_Pond
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
-
-            
 
             base.Update(gameTime);
         }

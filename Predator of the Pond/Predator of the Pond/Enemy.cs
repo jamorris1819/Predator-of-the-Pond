@@ -56,6 +56,13 @@ namespace Predator_of_the_Pond
             speed = random.Next(5, 10);
             size = random.Next(1, 3) - (float)random.NextDouble() + 0.05f;
             speed -= (int)size;
+
+            if(direction == 1)
+                position = new Vector2(-Enemy.Sprites[0].Width * size,
+                    random.Next(720 - (int)(Enemy.Sprites[0].Width * size)));
+            else
+                position = new Vector2(1280 + (Enemy.Sprites[0].Width * size),
+                    random.Next(720 - (int)(Enemy.Sprites[0].Width * size)));
         }
 
         public void Update()

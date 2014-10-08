@@ -64,7 +64,7 @@ namespace Predator_of_the_Pond.GameScreens
             base.Update(gameTime);
             BubbleManager.Update(gameTime);
             player.Update();
-            EnemyManager.Update(player);
+            EnemyManager.Update(player, StateManager, GameRef);
         }
     }
 }

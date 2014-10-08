@@ -13,6 +13,10 @@ C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Pred
 C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\player.xnb
 C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\fishleft.xnb
 C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\fishright.xnb
-C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\music.xnb
 C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\bubble.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Backgrounds\gameover.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\sad_violin.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\sad_violin.wma
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\music.xnb
 C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\music.wma
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\pop.xnb

@@ -48,7 +48,7 @@ namespace Predator_of_the_Pond.GameScreens
             instructions = new LinkLabel();
             instructions.Text = "Instructions";
             instructions.Position = new Vector2(685, 350);
-            instructions.Selected += new EventHandler(startGame_Selected);
+            instructions.Selected += new EventHandler(instructions_Selected);
             ControlManager.Add(instructions);
 
             about = new LinkLabel();
@@ -57,6 +57,12 @@ namespace Predator_of_the_Pond.GameScreens
             ControlManager.Add(about);
 
             ControlManager.NextControl();
+        }
+
+        void instructions_Selected(object sender, EventArgs e)
+        {
+            click.Play();
+            StateManager.ChangeState(GameRef.GameOverScreen);
         }
 
         void startGame_Selected(object sender, EventArgs e)

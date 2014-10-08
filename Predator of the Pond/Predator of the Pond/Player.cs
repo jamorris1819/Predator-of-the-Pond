@@ -18,9 +18,10 @@ namespace Predator_of_the_Pond
     class Player
     {
         Vector2 position;
-        float xmotion, ymotion, xchangeto, ychangeto, speed, size;
+        float xmotion, ymotion, xchangeto, ychangeto, speed, size, toSize;
         float friction = 1.05f;
         Texture2D[] sprites;
+        const float startSize = 0.4f;
 
         public Texture2D[] Sprites
         {
@@ -44,7 +45,7 @@ namespace Predator_of_the_Pond
             xmotion = 0;
             ymotion = 0;
             speed = 16;
-            size = 0.4f;
+            size = toSize = startSize;
             position = new Vector2(400, 400);
             sprites = new Texture2D[2];
         }
@@ -67,7 +68,12 @@ namespace Predator_of_the_Pond
             xmotion /= friction;
             ymotion /= friction;
 
-            if (InputHandler.KeyPressed(Keys.Space)) size += 0.025f;
+            if (toSize != size)
+                size = MathHelper.SmoothStep(size, toSize, 0.1f);
+
+            if (InputHandler.KeyPressed(Keys.Space)) Grow();
+            position.X = MathHelper.Clamp(position.X, 0, 1280 - sprites[0].Width * size);
+            position.Y = MathHelper.Clamp(position.Y, 0, 720 - sprites[0].Height * size);
         }
 
         public void Draw(SpriteBatch spriteBatch)
@@ -78,6 +84,16 @@ namespace Predator_of_the_Pond
             else
                 spriteBatch.Draw(sprites[1], new Rectangle((int)position.X, (int)position.Y, (int)(sprites[1].Width * size), (int)(sprites[1].Height * size)), Color.White);
             spriteBatch.End();
+        }
+
+        public void Grow()
+        {
+            toSize += 0.025f;
+        }
+
+        public void Die()
+        {
+            size = toSize = startSize;
         }
     }
 }
