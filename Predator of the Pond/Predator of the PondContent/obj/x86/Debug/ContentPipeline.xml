@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Backgrounds\gameover.xnb</Output>
-      <Time>2014-10-08T17:40:33.1958+01:00</Time>
+      <Time>2014-10-08T21:10:45.4618+01:00</Time>
     </Item>
     <Item>
       <Source>Audio\sad_violin.mp3</Source>
@@ -110,6 +110,33 @@
       <Options>None</Options>
       <Output>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\pop.xnb</Output>
       <Time>2014-10-08T18:31:13.2988+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\instructions.png</Source>
+      <Name>Backgrounds\instructions</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Backgrounds\instructions.xnb</Output>
+      <Time>2014-10-08T21:18:12.3078+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\winner.png</Source>
+      <Name>Backgrounds\winner</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Backgrounds\winner.xnb</Output>
+      <Time>2014-10-08T21:39:41.6548+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\SmallFont.png</Source>
+      <Name>Fonts\SmallFont</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Fonts\SmallFont.xnb</Output>
+      <Time>2014-10-08T21:49:43.0728+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

@@ -30,6 +30,9 @@ namespace Predator_of_the_Pond
                 else
                     bubbles[i].Update(gameTime);
             }
+            Random random = new Random();
+            if (random.Next(0, 30) == 10)
+                Create(new Vector2(random.Next(0, 761) + random.Next(500), 720));
         }
 
         public static void Draw(SpriteBatch spriteBatch)

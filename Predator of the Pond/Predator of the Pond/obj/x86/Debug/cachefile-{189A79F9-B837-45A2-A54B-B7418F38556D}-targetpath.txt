@@ -12,3 +12,6 @@ Content\Audio\sad_violin.wma
 Content\Audio\music.xnb
 Content\Audio\music.wma
 Content\Audio\pop.xnb
+Content\Backgrounds\instructions.xnb
+Content\Backgrounds\winner.xnb
+Content\Fonts\SmallFont.xnb

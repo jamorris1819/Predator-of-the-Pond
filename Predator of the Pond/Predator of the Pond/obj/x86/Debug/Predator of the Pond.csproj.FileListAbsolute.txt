@@ -20,3 +20,6 @@ C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Pred
 C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\music.xnb
 C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\music.wma
 C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Audio\pop.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Backgrounds\instructions.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Backgrounds\winner.xnb
+C:\Users\Jacob 2\Documents\GitHub\Predator-of-the-Pond\Predator of the Pond\Predator of the Pond\bin\x86\Debug\Content\Fonts\SmallFont.xnb

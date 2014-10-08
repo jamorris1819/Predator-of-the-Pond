@@ -25,6 +25,7 @@ namespace Predator_of_the_Pond.GameScreens
         protected SoundEffect click;
 
         protected SpriteFont mainFont;
+        protected SpriteFont smallFont;
 
         public BaseGameState(Game game, GameStateManager manager)
             : base(game, manager)
@@ -41,6 +42,7 @@ namespace Predator_of_the_Pond.GameScreens
         {
             ContentManager Content = Game.Content;
             mainFont = Content.Load<SpriteFont>("Fonts/MainFont");
+            smallFont = Content.Load<SpriteFont>("Fonts/SmallFont");
             ControlManager = new ControlManager(mainFont);
             click = Content.Load<SoundEffect>("Audio/bubble");
             base.LoadContent();

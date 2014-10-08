@@ -22,6 +22,7 @@ namespace Predator_of_the_Pond
         float friction = 1.05f;
         Texture2D[] sprites;
         const float startSize = 0.4f;
+        public int fishEaten = 0;
 
         public Texture2D[] Sprites
         {
@@ -89,11 +90,13 @@ namespace Predator_of_the_Pond
         public void Grow()
         {
             toSize += 0.025f;
+            fishEaten++;
         }
 
         public void Die()
         {
             size = toSize = startSize;
+            fishEaten = 0;
         }
     }
 }

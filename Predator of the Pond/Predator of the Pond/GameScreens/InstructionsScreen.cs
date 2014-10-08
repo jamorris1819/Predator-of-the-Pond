@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Media;
 
 using Screen_Management_Library;
@@ -16,15 +15,15 @@ using Screen_Management_Library.Controls;
 
 namespace Predator_of_the_Pond.GameScreens
 {
-    public class GameScreen : BaseGameState
+    public class InstructionsScreen : BaseGameState
     {
         PictureBox background;
-        Player player;
+        LinkLabel back;
 
-        public GameScreen(Game game, GameStateManager manager)
+        public InstructionsScreen(Game game, GameStateManager manager)
             : base(game, manager)
         {
-            player = new Player();
+
         }
 
         public override void Initialize()
@@ -36,25 +35,32 @@ namespace Predator_of_the_Pond.GameScreens
         {
             base.LoadContent();
             ContentManager Content = Game.Content;
-            background = new PictureBox(Content.Load<Texture2D>("Backgrounds/ingame"), GameRef.ScreenRectangle);
+            background = new PictureBox(Content.Load<Texture2D>("Backgrounds/instructions"), GameRef.ScreenRectangle);
             ControlManager.Add(background);
 
-            ControlManager.NextControl();
+            back = new LinkLabel();
+            back.Text = "Back to menu";
+            back.Position = new Vector2(800, 250);
+            back.Selected += new EventHandler(back_Selected);
+            ControlManager.Add(back);
 
-            player.Sprites[0] = Content.Load<Texture2D>("fishright");
-            player.Sprites[1] = Content.Load<Texture2D>("fishleft");
+            ControlManager.NextControl();
+        }
+
+        void back_Selected(object sender, EventArgs e)
+        {
+            click.Play();
+            StateManager.ChangeState(GameRef.TitleMenuScreen);
         }
 
         public override void Draw(GameTime gameTime)
         {
+
             GameRef.SpriteBatch.Begin();
             base.Draw(gameTime);
             ControlManager.Draw(GameRef.SpriteBatch);
             BubbleManager.Draw(GameRef.SpriteBatch);
-            GameRef.SpriteBatch.DrawString(smallFont, "Fish eaten: " + player.fishEaten.ToString(), new Vector2(30, 30), Color.White);
             GameRef.SpriteBatch.End();
-            player.Draw(GameRef.SpriteBatch);
-            EnemyManager.Draw(GameRef.SpriteBatch);
         }
 
         public override void Update(GameTime gameTime)
@@ -64,12 +70,6 @@ namespace Predator_of_the_Pond.GameScreens
             ControlManager.Update(gameTime);
             base.Update(gameTime);
             BubbleManager.Update(gameTime);
-            player.Update();
-            EnemyManager.Update(player, StateManager, GameRef);
-            if (player.Size > 3.05f)    //  if player is the largest fish (fish size = (1-2)+(0-1)+0.5f
-            {
-                StateManager.ChangeState(GameRef.WinnerScreen);
-            }
         }
     }
 }

@@ -27,8 +27,10 @@ namespace Predator_of_the_Pond
 
         GameStateManager stateManager;
         public TitleMenuScreen TitleMenuScreen;
+        public InstructionsScreen InstructionsScreen;
         public GameScreen GameScreen;
         public GameOverScreen GameOverScreen;
+        public WinnerScreen WinnerScreen;
 
         public Song sadMusic;
 
@@ -48,8 +50,10 @@ namespace Predator_of_the_Pond
             Components.Add(stateManager);
 
             TitleMenuScreen = new TitleMenuScreen(this, stateManager);
-            GameScreen = new GameScreens.GameScreen(this, stateManager);
-            GameOverScreen = new GameScreens.GameOverScreen(this, stateManager);
+            InstructionsScreen = new InstructionsScreen(this, stateManager);
+            GameScreen = new GameScreen(this, stateManager);
+            GameOverScreen = new GameOverScreen(this, stateManager);
+            WinnerScreen = new WinnerScreen(this, stateManager);
 
             stateManager.ChangeState(TitleMenuScreen);
         }

@@ -45,7 +45,9 @@ namespace Predator_of_the_Pond
 
         public bool OnScreen(int width)
         {
-            return !((direction == 1 && position.X > width) || (direction == -1 && position.X < -(sprites[1].Width * size)));
+            return new Rectangle(0, 0, 1280, 720).Intersects(
+                new Rectangle((int)position.X, (int)position.Y, (int)(sprites[0].Width * size), (int)(sprites[0].Width * size)));
+            //return !((position.X > width) && !(position.X < -(sprites[1].Width * size)));
         }
 
         public Enemy()
@@ -61,8 +63,8 @@ namespace Predator_of_the_Pond
                 position = new Vector2(-Enemy.Sprites[0].Width * size,
                     random.Next(720 - (int)(Enemy.Sprites[0].Width * size)));
             else
-                position = new Vector2(1280 + (Enemy.Sprites[0].Width * size),
-                    random.Next(720 - (int)(Enemy.Sprites[0].Width * size)));
+                position = new Vector2(1280,
+                    random.Next(720 - (int)(Enemy.Sprites[1].Width * size)));
         }
 
         public void Update()

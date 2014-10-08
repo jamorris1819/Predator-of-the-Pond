@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Diagnostics;
 
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
@@ -54,15 +55,21 @@ namespace Predator_of_the_Pond.GameScreens
             about = new LinkLabel();
             about.Text = "About";
             about.Position = new Vector2(770, 450);
+            about.Selected += new EventHandler(about_Selected);
             ControlManager.Add(about);
 
             ControlManager.NextControl();
         }
 
+        void about_Selected(object sender, EventArgs e)
+        {
+            Process.Start("http://jamorris.co.uk/");
+        }
+
         void instructions_Selected(object sender, EventArgs e)
         {
             click.Play();
-            StateManager.ChangeState(GameRef.GameOverScreen);
+            StateManager.ChangeState(GameRef.InstructionsScreen);
         }
 
         void startGame_Selected(object sender, EventArgs e)
