@@ -63,7 +63,7 @@ namespace Predator_of_the_Pond.GameScreens
 
         void about_Selected(object sender, EventArgs e)
         {
-            Process.Start("http://jamorris.co.uk/");
+            Process.Start("http://jamorris.co.uk/portfolio/predator-of-the-pond/");
         }
 
         void instructions_Selected(object sender, EventArgs e)

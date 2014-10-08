@@ -69,10 +69,6 @@ namespace Predator_of_the_Pond
                 CreateEnemy();
                 time = 0;
             }
-
-            if (InputHandler.KeyPressed(Keys.L))
-                foreach (Enemy enemy in enemies)
-                    Console.WriteLine(enemy.Position);
         }
 
         public static void Draw(SpriteBatch spriteBatch)

@@ -72,7 +72,6 @@ namespace Predator_of_the_Pond
             if (toSize != size)
                 size = MathHelper.SmoothStep(size, toSize, 0.1f);
 
-            if (InputHandler.KeyPressed(Keys.Space)) Grow();
             position.X = MathHelper.Clamp(position.X, 0, 1280 - sprites[0].Width * size);
             position.Y = MathHelper.Clamp(position.Y, 0, 720 - sprites[0].Height * size);
         }
